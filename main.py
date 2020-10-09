@@ -87,7 +87,6 @@ async def startup_event():
     # loop = asyncio.get_event_loop()  # get event loop
     tasks = [asyncio.ensure_future(setup_learner())]  # assign some task
     learn = (await asyncio.gather(*tasks))[0]  # get tasks
-    # learn = setup_learner()
 
 class RequestBody(BaseModel):
     img_base64: str
