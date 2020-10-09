@@ -1,0 +1,6 @@
+fastapi==0.61.1
+uvicorn
+pydantic
+asyncio
+aiofiles
+aiohttp
